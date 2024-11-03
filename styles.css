@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+/* Basic styling for the buttons section */
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.btn, .stop {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Button color */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.stop {
+    background-color: #f44336; /* Stop button color */
+}
+
+.btn:hover, .stop:hover {
+    background-color: #3e8e41; /* Hover color */
+}
+
+.stop:hover {
+    background-color: #d32f2f; /* Hover color for stop button */
+}
